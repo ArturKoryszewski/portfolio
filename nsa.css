@@ -1,0 +1,123 @@
+@font-face {
+    font-family:book;
+    src: url(./ITCAvantGardePro-Bk.otf);
+}
+
+@font-face {
+    font-family:bold;
+    src: url(./ITCAvantGardePro-Bold.otf);
+}
+
+@font-face {
+    font-family:medium;
+    src: url(./ITCAvantGardePro-Md.otf);
+}
+
+@font-face {
+    font-family:xlt;
+    src: url(./ITCAvantGardePro-XLt.otf);
+}
+
+body, html {
+    height: 2500px;
+    background-image: url(./nsa-background.png), linear-gradient(135deg, #313132,#161616);
+    background-position: left top, center;
+    background-size: 100%, 100%;
+    background-attachment: scroll, fixed;
+    background-repeat: no-repeat;
+}
+
+#maincontainer {
+    height: 100%;
+    width: 1520px;
+    margin: auto;
+}
+
+.koszulka {
+    position: absolute;
+    float: right;
+    scale: 80%;
+    margin-left: 390px;
+    margin-top: 200px;
+}
+
+h1 {
+    display: inline-block;
+    font-family: bold;
+    font-size: 40px;
+    color: white;
+    padding: 40px;
+    margin-top: 70px;
+    margin-left: 140px;
+}
+
+h2 {
+    font-family: xlt;
+    font-size: 20px;
+    color: white;
+    margin-left: 180px;
+    letter-spacing: 7px;
+}
+
+.first {
+    font-family: medium;
+    font-size: 20px;
+    color: white;
+    margin-left: 180px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.second {
+    font-family: medium;
+    font-size: 20px;
+    color: white;
+    margin-left: 180px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.third {
+    font-family: medium;
+    font-size: 20px;
+    color: white;
+    margin-left: 180px;
+    margin-top: 150px;
+    text-decoration: none;
+}
+
+.forth {
+    font-family: medium;
+    font-size: 20px;
+    color: white;
+    margin-left: 180px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.fifth {
+    font-family: medium;
+    font-size: 20px;
+    color: white;
+    margin-left: 830px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+h3 {
+    font-family: xlt;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    letter-spacing: 7px;
+    margin-top: 240px;
+}
+
+.podglad {
+    scale: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin-top: -300px;
+}
